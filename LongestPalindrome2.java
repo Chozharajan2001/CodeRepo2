@@ -39,7 +39,7 @@ class LongestPalindrome{
         
         String result = new String();
         //To print palindrome
-        for(int i = start; i<=end && flag==true; i++){
+        for(int i = start; i<=start+end-1 && flag==true; i++){
             result = result+s.charAt(i);
         }
         System.out.println("The Longest Palindrome is: "+result+"\nlength:"+result.length());
