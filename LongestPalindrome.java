@@ -26,7 +26,7 @@ class LongestPalindrome{
         }
         String result = new String();
         //To print palindrome
-        for(int i = start; i<=max_len; i++){
+        for(int i = start; i<=start+max_len-1; i++){
             result = result+s.charAt(i);
         }
         System.out.println("The Longest Palindrome is: "+result+"\nlength:"+result.length());
